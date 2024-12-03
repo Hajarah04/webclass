@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body  bgcolor="papayawhip">
+    <header>
+        <span>hajo money</span>
+        <nav align="center">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="form.html">form</a>
+            <a href="table.html">table</a>
+            <a href="league.html">league table</a>
+            <a href="contact.html">contact</a>
+        
+        </nav>
+    </header>
+    <h2>students score</h2>
+    <table border="1" width="600" >
+        <thead>
+            <tr>
+                <th>sn</th>
+                <th>name</th>
+                <th>maths</th>
+                <th>eng</th>
+                <th>physics</th>
+                <th>biology</th>
+                <th>total</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>1</td>
+                <td>ojo peters</td>
+                <td>70</td>
+                <td>70</td>
+                <td>80</td>
+                <td>80</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>matthew john</td>
+                <td>50</td>
+                <td>50</td>
+                <td>60</td>
+                <td>60</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sandra philip</td>
+                <td>80</td>
+                <td>70</td>
+                <td>70</td>
+                <td>60</td>
+                <td>280</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>eden james</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+                <td>75</td>
+                <td>320</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>table with colspan</h1>
+    <table width="500" border="1" bordercolor="blue">
+         <caption>life expentancy by current age </caption>
+         <thead>
+            <tr>
+                <th colspan="2">65</th>
+                <th colspan="2">40</th>
+                <th colspan="2">20</th>
+            </tr>
+            <tr>
+                <th> men </th>
+                <th> women </th>
+                <th> men </th>
+                <th> women </th>
+                <th> men </th>
+                <th> women </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr align="center">
+                <td> 82 </td>
+                <td> 85 </td>
+                <td> 78 </td>
+                <td> 82 </td>
+                <td> 77 </td>
+                <td> 81 </td>
+            </tr>
+         </tbody>
+    </table>
+
+    <h1>Invoice</h1>
+    <table width="600" border="1">
+        <thead>
+            <tr>
+                <th> Item/Desc.</th>
+                <th> Qty. </th>
+                <th> @ </th>
+                <th> Price </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Paperclips(box) </td>
+                <td> 100 </td>
+                <td> 1.15 </td>
+                <td> 115 </td>
+            </tr>
+            <tr>
+                <td> Paper(Case)</td>
+                <td> 10 </td>
+                <td> 45.99</td>
+                <td> 459.90</td>
+            </tr>
+            <tr>
+                <td>wastepaper baskets </td>
+                <td> 2</td>
+                <td> 17.99 </td>\
+                <td> 35.98</td>
+            </tr>
+            <tr>
+                <td colspan="3"> subtotal</td>
+                <td> 610.88</td>
+            </tr>
+            <tr>
+                <td colspan="2"> tax </td>
+                <td> 7% </td>
+                <td> 42.76</td>
+            </tr>
+            <tr>
+                <td colspan="3">total</td>
+                <td> 653.64 </td>
+            </tr>
+        </tbody>
+    </table>
+</table>
+<h1> favorite and least favorite item</h1>
+<table border="1" width="500">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Bob</th>
+            <th>Alice</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="2" align="left">favorite</th>
+            <th align="left">color</th>
+            <td>blue</td>
+            <td>purple</td>
+        </tr>
+        <tr>
+            <th align="left">flavor</th>
+            <td>banana</td>
+            <td>chocolate</td>
+        </tr>
+        <tr>
+            <th align="left" rowspan="2">least favorite</th>
+            <th align="left">color</th>
+            <td>yellow</td>
+            <td>pink</td>
+        </tr>
+        <tr>
+            <th align="left">flavor</th>
+            <td>mint</td>
+            <td>walnut</td> 
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

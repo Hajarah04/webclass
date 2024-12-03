@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+.sticky{
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+    z-index: 4;
+}
+header{
+    height: 70px;
+    background: goldenrod;
+    color: antiquewhite;
+    text-transform: capitalize;
+    padding-left: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+a{
+    color: antiquewhite;
+    margin-right: 12px;
+    text-decoration: none;
+}
+ul li{
+   border: 1px solid blue;
+    margin: 10px;
+    padding: 5px;
+}
+
+.list-container{
+    padding: 30px;
+    line-height: 30px;
+}
+
+
+ul, ol{
+    background: rgba(233,77,33, 0.2);
+    text-transform: capitalize;
+}
+
+#title{
+    color: red;
+}
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse; 
+    padding: 5px;
+    margin: 30px;
+    font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+td{
+    text-transform: capitalize;
+    
+}
+.title{
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color: black;
+    color: white;
+}
+
+.banner{
+    height: 350px;
+    background: url(images/pexels-life-of-pix-7974.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+}
+.contact-banner{
+    height: 350px;
+    background: url(images/pexels-tima-miroshnichenko-6498947.jpg), url(images/pexels-ron-lach-8264241.jpg);
+    background-position:left, right;
+    background-size: 50% , 50%;
+    background-repeat: no-repeat, no-repeat;
+    color: aliceblue;
+    
+}
+.league-banner{
+    height: 350px;
+    background: linear-gradient(to right,hwb(0 0% 0%), green,pink 50%, orange);
+}
+.radial-gradient{
+    height: 350px;
+    background: radial-gradient(rgba(200,150,160,0.2),rgba(220,40,200,0.3));
+}
+.conic{
+    height: 350px;
+   background: #54a2;
+}
+
+form{
+    background: hsla(120, 100%, 90%, 0.6);
+}
+.csspositioning{
+   width: 100%;
+   height: 350px;
+   position: relative;
+
+}
+
+.csspositioning img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.left{
+  position: absolute;  
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+  text-transform: capitalize;
+}
+.bleft{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white; 
+    font-size: 20px;
+  text-transform: capitalize;  
+}
+.bright{
+    position: absolute;
+    bottom: 10px;
+    right : 10px;
+    color: white;
+    font-size: 20px;
+  text-transform: capitalize;
+}
+.center{
+    position :absolute;
+    top: 50%;
+    left: 50%;
+    color : white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.box{
+    position: relative;
+    height: 350px;
+    width: 550px; 
+    box-sizing: border-box;
+    border: 3px solid black;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.circle1{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: red;
+    left: 10px;
+    top: 10px;
+}
+.circle2{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: blue;
+    left: 150px;
+    top: 10px;
+}
+.circle3{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: green;
+    left: 300px;  
+     top: 10px;
+}
+.circle4{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: purple;
+    right: 10px; 
+    top: 10px; 
+}
+.fixed{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: purple;
+   bottom: 20px;
+   right: 20px;
+}
+.circle5{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(209, 124, 209);
+    bottom: 200px;
+    left: 10px; 
+}
+.circle6{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(128, 201, 95);
+    left: 150px;  
+    bottom:200px;
+}
+.circle7{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: purple;
+    left: 300px; 
+    bottom: 200px; 
+}
+.circle8{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(244, 127, 205);
+    right: 10px;
+    bottom: 200px;   
+}
+.circle9{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(37, 12, 37);
+    left: 10px;  
+    bottom:100px;
+}
+.circle10{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: purple;
+    left: 150px; 
+    bottom: 100px; 
+}
+.circle11{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(180, 211, 85);
+    left: 300px; 
+    bottom: 100px; 
+}
+.circle12{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(114, 185, 228);
+    right: 10px; 
+    bottom: 100px; 
+}
+.circle13{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(114, 185, 228);
+    left: 10px; 
+    bottom: 10px; 
+}
+.circle14{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(114, 185, 228);
+    left: 150px; 
+    bottom: 10px; 
+}
+.circle15{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(114, 185, 228);
+    left: 300px; 
+    bottom: 10px; 
+}
+.circle16{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: rgb(114, 185, 228);
+    right: 10px; 
+    bottom: 10px; 
+}
